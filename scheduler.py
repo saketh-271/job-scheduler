@@ -64,7 +64,7 @@ def main():
             print("Daily job scheduled!\n")
 
         elif choice == "3":
-            day = input("Enter day (e.g., Monday): ").strip().lower()
+            day = input("Enter day : ").strip().lower()
             time_str = input("Enter time in HH:MM format: ")
             hour, minute = map(int, time_str.split(":"))
             message = input("Enter job message: ")
